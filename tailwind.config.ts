@@ -61,7 +61,36 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				netflix: {
+					bg: 'hsl(var(--netflix-bg))',
+					card: 'hsl(var(--netflix-card))',
+					red: 'hsl(var(--netflix-red))',
+					'red-dark': 'hsl(var(--netflix-red-dark))',
+					text: 'hsl(var(--netflix-text))',
+					'text-muted': 'hsl(var(--netflix-text-muted))',
+					overlay: 'hsl(var(--netflix-overlay))'
 				}
+			},
+			fontFamily: {
+				'bebas': ['Bebas Neue', 'sans-serif'],
+				'montserrat': ['Montserrat', 'sans-serif'],
+				'inter': ['Inter', 'sans-serif'],
+			},
+			backgroundImage: {
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-card': 'var(--gradient-card)',
+				'gradient-red': 'var(--gradient-red)',
+				'gradient-overlay': 'var(--gradient-overlay)',
+			},
+			boxShadow: {
+				'card': 'var(--shadow-card)',
+				'hover': 'var(--shadow-hover)',
+				'red': 'var(--shadow-red)',
+			},
+			transitionTimingFunction: {
+				'smooth': 'cubic-bezier(0.4, 0, 0.2, 1)',
+				'bounce': 'cubic-bezier(0.68, -0.55, 0.265, 1.55)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
