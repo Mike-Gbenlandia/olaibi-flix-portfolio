@@ -1,3 +1,10 @@
+import smathKidsImg from '../assets/smath-kids.png';
+import flawlessBeautyImg from '../assets/flawless-beauty.jpg';
+import gbenlandiaTechImg from '../assets/gbenlandia-tech.jpeg';
+import aptScholarsImg from '../assets/apt-scholars.jpg';
+import karismaNutritionImg from '../assets/karisma-nutrition.jpeg';
+import crowdedImg from '../assets/crowded.jpeg';
+
 // Portfolio data structure
 export interface ScriptProject {
   id: string;
@@ -37,7 +44,7 @@ export const scriptProjects: ScriptProject[] = [
     id: 'smath-kids',
     title: 'THE FUTURE STARTS TODAY',
     brand: 'Smath-Kids',
-    thumbnail: '/src/assets/smath-kids.png',
+    thumbnail: smathKidsImg,
     description: 'Educational Content Series',
     script: `
 FADE IN:
@@ -183,7 +190,7 @@ EMOTIONAL ARC: Frustration → Discovery → Growth → Confidence → Success �
     id: 'flawless-beauty',
     title: 'THE MISSING PIECE',
     brand: 'Flawless by Nature',
-    thumbnail: '/src/assets/flawless-beauty.jpg',
+    thumbnail: flawlessBeautyImg,
     description: 'Compelling brand storytelling scripts that showcase authentic beauty journeys and product narratives.',
     script: `
 "THE MISSING PIECE"
@@ -326,7 +333,7 @@ THEME: Your crown is your confidence
     id: 'gbenlandia-tech',
     title: 'The Cost of Standing Still',
     brand: 'Gbenlandia GrowthTech',
-    thumbnail: '/src/assets/gbenlandia-tech.jpg',
+    thumbnail: gbenlandiaTechImg,
     description: 'Dynamic pitch presentations and investor storytelling that secured funding for innovative growth solutions.',
     script: `Setting: Studio, black canvas background. White shirt.
 Tone: Thoughtful, honest, bold
@@ -414,7 +421,7 @@ END
     id: 'apt-scholars',
     title: 'Institutional Brand Story',
     brand: 'Apt Scholars Universal College',
-    thumbnail: '/src/assets/apt-scholars.jpg',
+    thumbnail: aptScholarsImg,
     description: 'Academic excellence narratives that position the institution as a leader in innovative education.',
     script: `APT SCHOLARS UNIVERSAL COLLEGE - INSTITUTIONAL FILM
 "Where Potential Meets Purpose"
@@ -470,7 +477,7 @@ export const copyProjects: CopyProject[] = [
     id: 'karisma-nutrition',
     title: 'Wellness Brand Positioning',
     brand: 'Karisma Nutrition',
-    thumbnail: '/src/assets/karisma-nutrition.jpeg',
+    thumbnail: karismaNutritionImg,
     description: 'Compelling health and wellness copy that drives conversions while building trust and authority.',
     caseStudy: {
       overview: 'Developed comprehensive website copy and marketing materials that positioned Karisma Nutrition as a trusted authority in personalized wellness solutions.',
@@ -485,7 +492,7 @@ export const copyProjects: CopyProject[] = [
     id: 'gbenlandia-tech-copy',
     title: 'SaaS Platform Messaging',
     brand: 'Gbenlandia GrowthTech',
-    thumbnail: '/src/assets/gbenlandia-tech.jpeg',
+    thumbnail: gbenlandiaTechImg,
     description: 'Technical copy that makes complex growth solutions accessible to business owners and decision-makers.',
     caseStudy: {
       overview: 'Created clear, compelling copy for a complex B2B SaaS platform that simplified technical concepts for non-technical business owners.',
@@ -500,7 +507,7 @@ export const copyProjects: CopyProject[] = [
     id: 'crowded',
     title: 'EdTech Platform Copy',
     brand: 'CrowdED',
-    thumbnail: '/src/assets/crowded.jpeg',
+    thumbnail: crowdedImg,
     description: 'Educational platform copy that connects with both educators and students, driving engagement and retention.',
     caseStudy: {
       overview: 'Developed user-focused copy for an innovative EdTech platform that serves both educators and students with collaborative learning tools.',
