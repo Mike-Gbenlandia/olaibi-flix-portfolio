@@ -31,11 +31,43 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project, type }) => {
                 </NetflixButton>
               </Link>
             )}
-            <Link to={`/case-study/${project.id}`}>
-              <NetflixButton size="sm" variant="outline">
-                Case Study
-              </NetflixButton>
-            </Link>
+            {project.brand === "Karisma Nutrition" ? (
+              <a
+                href="https://karisma-nutrition-w5shpic.gamma.site/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <NetflixButton size="sm" variant="outline">
+                  Case Study
+                </NetflixButton>
+              </a>
+            ) : project.brand === "Gbenlandia GrowthTech" ? (
+              <a
+                href="https://gbenlandia-growthtech-l8fwznh.gamma.site/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <NetflixButton size="sm" variant="outline">
+                  Case Study
+                </NetflixButton>
+              </a>
+            ) : project.brand === "CrowdED" ? (
+              <a
+                href="https://crowded-case-study-xoygyl4.gamma.site/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <NetflixButton size="sm" variant="outline">
+                  Case Study
+                </NetflixButton>
+              </a>
+            ) : (
+              <Link to={`/case-study/${project.id}`}>
+                <NetflixButton size="sm" variant="outline">
+                  Case Study
+                </NetflixButton>
+              </Link>
+            )}
           </div>
         </div>
       </div>
@@ -55,11 +87,45 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project, type }) => {
               </NetflixButton>
             </Link>
           )}
-          <Link to={`/case-study/${project.id}`}>
-            <NetflixButton size="sm" variant="outline">
-              Read Case Study
-            </NetflixButton>
-          </Link>
+          {!hasScript && (
+            project.brand === "Karisma Nutrition" ? (
+              <a
+                href="https://karisma-nutrition-w5shpic.gamma.site/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <NetflixButton size="sm" variant="outline">
+                  Read Case Study
+                </NetflixButton>
+              </a>
+            ) : project.brand === "Gbenlandia GrowthTech" ? (
+              <a
+                href="https://gbenlandia-growthtech-l8fwznh.gamma.site/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <NetflixButton size="sm" variant="outline">
+                  Read Case Study
+                </NetflixButton>
+              </a>
+            ) : project.brand === "CrowdED" ? (
+              <a
+                href="https://crowded-case-study-xoygyl4.gamma.site/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <NetflixButton size="sm" variant="outline">
+                  Read Case Study
+                </NetflixButton>
+              </a>
+            ) : (
+              <Link to={`/case-study/${project.id}`}>
+                <NetflixButton size="sm" variant="outline">
+                  Read Case Study
+                </NetflixButton>
+              </Link>
+            )
+          )}
         </div>
       </div>
     </div>

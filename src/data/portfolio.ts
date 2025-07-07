@@ -35,154 +35,380 @@ export interface CopyProject {
 export const scriptProjects: ScriptProject[] = [
   {
     id: 'smath-kids',
-    title: 'Educational Content Series',
+    title: 'THE FUTURE STARTS TODAY',
     brand: 'Smath-Kids',
-    thumbnail: '/src/assets/smath-kids.jpg',
-    description: 'Interactive educational scripts that make mathematics fun and engaging for young learners.',
-    script: `SMATH-KIDS EDUCATIONAL SERIES - EPISODE 1
-"The Magic of Numbers"
-
+    thumbnail: '/src/assets/smath-kids.png',
+    description: 'Educational Content Series',
+    script: `
 FADE IN:
+INT. CHILD'S BEDROOM - NIGHT
+KEMI (12 years old) sits at her desk, surrounded by math textbooks. She's frustrated, erasing equations repeatedly. Her desk lamp flickers. She looks tired.
+KEMI (sighing):
+"Why is this so hard?"
+She stares at a complex fraction problem, then at a poster on her wall that reads "FUTURE DOCTOR."
+KEMI (to the poster):
+"How am I supposed to become a doctor if I can't even solve this?"
+She closes her textbook in defeat.
 
-INT. COLORFUL MATH CLASSROOM - DAY
+INT. KEMI'S BEDROOM - MORNING
+Kemi wakes up to sunlight streaming through her window. She sees her younger brother TUNDE (8 years old) at her desk, working on her math homework.
+KEMI (curious):
+"Tunde, what are you doing?"
+TUNDE (excited):
+"I'm helping! Look, I solved your math problem!"
+Kemi looks at the work, amazed.
+KEMI (shocked):
+"But... but you're only in Primary 3! How did you...?"
+TUNDE (proudly):
+"SMATHS-Kids! They make everything easy. Watch!"
+He shows her his tablet with the SMATHS-Kids online platform.
 
-A vibrant classroom filled with floating numbers and geometric shapes. MAYA (8), an curious student, sits at her desk looking puzzled.
+INT. KEMI'S BEDROOM - CONTINUOUS
+Kemi watches as Tunde navigates the colorful, interactive learning platform.
+TUNDE (explaining):
+"See? They break it down into small pieces. Like building blocks!"
+The screen shows animated explanations of math concepts.
+KEMI (amazed):
+"It's like... it's like the numbers are talking to me."
+TUNDE (grinning):
+"And there's a competition! Winner gets fantastic prizes!"
+Kemi's eyes light up.
+KEMI (determined):
+"Show me everything."
 
-MAYA
-(sighing)
-Math is so hard! These numbers just don't make sense.
+MONTAGE - KEMI'S TRANSFORMATION
+Quick shots of Kemi's journey over several weeks:
 
-Suddenly, NUMBER 7 springs to life, bouncing around the classroom.
+Kemi at her computer, following SMATHS-Kids lessons
+Her notebook pages filling with neat, correct solutions
+Her confidence growing as she raises her hand in class
+Her studying with new enthusiasm
+Her younger brother cheering her on
 
-NUMBER 7
-(cheerfully)
-Hey Maya! I heard you're having trouble with math. Want to go on an adventure?
+INT. KEMI'S BEDROOM - EVENING
+Kemi sits at her computer, taking the SMATHS-Kids qualifying examination. She's focused, confident.
+KEMI (to herself):
+"Fractions... you're not my enemy anymore."
+She clicks submit and waits. A notification appears: "CONGRATULATIONS! YOU'VE QUALIFIED FOR STAGE 2!"
+KEMI (jumping up):
+"Tunde! I did it!"
+Tunde runs in, and they celebrate together.
 
-MAYA
-(surprised)
-Numbers can talk?!
+INT. KEMI'S BEDROOM - LATER
+Kemi sits calmly taking the Pre-Final examination. She's transformed from the frustrated girl we met at the beginning.
+KEMI (voiceover):
+"Funny how learning becomes fun when someone shows you the right way."
+Another notification: "CONGRATULATIONS! YOU'VE QUALIFIED FOR THE FINAL!"
 
-NUMBER 7
-Of course! We numbers love to play games and solve puzzles. Come on, let me show you how fun math can be!
+EXT. APT SCHOLARS UNIVERSAL COLLEGE OTA - DAY
+Kemi walks confidently toward the impressive school building, carrying her materials for the physical final.
+KEMI (voiceover):
+"I used to think I wasn't smart enough. But SMATHS-Kids showed me something..."
+She pauses at the entrance, looking up at the building.
+KEMI (continuing):
+"Every genius was once a beginner. Every expert was once a student."
 
-The classroom transforms into a mathematical wonderland...
+INT. EXAMINATION HALL - DAY
+Kemi sits among other young competitors, all focused on their papers. The atmosphere is intense but exciting.
+KEMI (voiceover):
+"And every dream starts with believing you can learn."
+She writes confidently, occasionally smiling at problems that would have frustrated her before.
 
-[Script continues with interactive educational content, mathematical games, and character development that makes learning engaging and memorable.]
+INT. EXAMINATION HALL - LATER
+The examination ends. Kemi stretches, looking satisfied.
+KEMI (to herself):
+"Whatever happens, I'm proud of how far I've come."
+She looks around at her fellow competitors.
+KEMI (continuing):
+"We're all winners here. We all chose to grow."
 
-FADE OUT.
+INT. EXAMINATION HALL - AWARDS CEREMONY
+Kemi stands on stage with other winners, holding a trophy. But her biggest smile isn't for the prize - it's for the journey.
+KEMI (to the audience):
+"Six months ago, I wanted to quit. Math felt impossible. Science seemed too hard. English was confusing."
+She holds up her trophy.
+KEMI (continuing):
+"But SMATHS-Kids didn't just teach me subjects. They taught me that learning is an adventure, not a punishment."
+She looks directly at the camera.
+KEMI (passionate):
+"To every child watching this: You are smarter than you think. You are capable of more than you know. And your future? It starts today."
+She pauses, then smiles.
+KEMI (final words):
+"The only thing standing between you and your dreams is the decision to start learning."
+She raises her trophy, and the audience erupts in applause.
+FADE TO BLACK.
+ANIMATED TEXT APPEARS:
+"SMATHS-Kids Initiative"
+"Where Learning Becomes Adventure"
+"Open to students ages 8-13"
+"Three stages: Online Qualifying, Online Pre-Final, Physical Final"
+"Proudly sponsored by Apt Scholars Universal College Ota"
+"Register now at smathskids@gmail.com"
+FINAL FADE OUT.
 
-THE END
+PRODUCTION NOTES:
+DURATION: 2-3 minutes
+CAST REQUIREMENTS:
 
-[This script is designed to be part of a series that combines entertainment with education, making complex mathematical concepts accessible to young minds through storytelling and character interaction.]`,
-    caseStudy: {
-      overview: 'Created an engaging educational script series that transforms mathematics from a feared subject into an exciting adventure for children aged 6-10.',
-      problem: 'Traditional math education often fails to engage young students, leading to math anxiety and poor academic performance in foundational concepts.',
-      approach: 'Developed character-driven narratives that personify numbers and mathematical concepts, making abstract ideas tangible and relatable through storytelling.',
-      output: 'A complete script series featuring talking numbers, interactive scenarios, and problem-solving adventures that maintain educational integrity while maximizing entertainment value.',
-      rationale: 'By combining emotional engagement with educational content, children develop positive associations with mathematics, improving retention and enthusiasm for learning.',
-      role: 'Lead Scriptwriter and Educational Consultant - Responsible for curriculum alignment, character development, and ensuring age-appropriate content delivery.'
-    }
+1 Main actress (Kemi, 12 years old)
+1 Supporting actor (Tunde, 8 years old, minimal dialogue)
+Background students (for examination scenes)
+
+LOCATIONS:
+
+Child's bedroom (main location)
+Apt Scholars Universal College Ota exterior
+Examination hall/classroom
+
+VISUAL ELEMENTS:
+
+SMATHS-Kids online platform screenshots
+Animated learning content
+Transformation montage
+Awards ceremony
+
+PROPS:
+
+Textbooks and notebooks
+Tablet/computer
+Trophies and certificates
+Examination materials
+
+THEME: Every child has potential - the right guidance unlocks it
+EMOTIONAL ARC: Frustration → Discovery → Growth → Confidence → Success → Inspiration
+`,
+    caseStudy: null
   },
   {
     id: 'flawless-beauty',
-    title: 'Brand Documentary Series',
-    brand: 'Flawless By Beauty',
+    title: 'THE MISSING PIECE',
+    brand: 'Flawless by Nature',
     thumbnail: '/src/assets/flawless-beauty.jpg',
     description: 'Compelling brand storytelling scripts that showcase authentic beauty journeys and product narratives.',
-    script: `FLAWLESS BY BEAUTY - BRAND DOCUMENTARY
-"The Journey to Authentic Beauty"
+    script: `
+"THE MISSING PIECE"
+FLAWLESS BY NATURE - Single Character Script (Minimal Cast)
 
 FADE IN:
+INT. ADUNNI'S BEDROOM - MORNING
+ADUNNI (mid-20s) jolts awake to her phone alarm. She reaches for a handwritten checklist on her nightstand.
+ADUNNI (reading aloud, determined):
+"Today is THE day. Dream job interview checklist..."
+Quick montage: She ticks off items as she completes them.
+ADUNNI (ticking off items):
+"Wake up early." ✓
+"Fresh breath." ✓
+"Smell good." ✓
+"Look professional." ✓
+"Makeup on point." ✓
+"All documents ready." ✓
+She kneels beside her bed, closes her eyes.
+ADUNNI (praying softly):
+"Father, bless this interview. Let your favor shine upon me today."
+ADUNNI (confident):
+"Prayers said." ✓
+She looks at herself in the full-length mirror.
+ADUNNI (pumping herself up):
+"Everything is perfect."
 
-INT. MODERN BEAUTY STUDIO - GOLDEN HOUR
+EXT. CORPORATE BUILDING - DAY
+Adunni walks confidently toward a gleaming office building.
 
-Soft, warm lighting filters through large windows. SARAH (28), founder of Flawless by Beauty, sits surrounded by her product line.
+INT. CORPORATE BUILDING - HALLWAY
+Adunni walks down a long hallway toward a door marked "INTERVIEWS."
 
-SARAH (V.O.)
-Beauty isn't about perfection. It's about authenticity, confidence, and embracing who you are.
+EXT. CORPORATE BUILDING - LATER
+Adunni exits the building, checks her phone. Her face falls.
+ADUNNI (reading, devastated):
+"We regret to inform you..."
+She stares at her reflection in the building's glass, touching her hair.
+ADUNNI (confused):
+"But I did everything right..."
+She pulls out her checklist, frantically reviewing it.
+ADUNNI (desperate):
+"What did I miss?"
+She looks at her reflection again, really seeing her hair.
+ADUNNI (realization):
+"My crown..."
 
-CLOSE-UP: Sarah's hands gently applying a moisturizer, her movements deliberate and caring.
+MAGICAL REALISM SEQUENCE
+The world rewinds: cars move backward, people walk in reverse, clock hands spin counterclockwise.
+ADUNNI (voiceover):
+"If I could just... try again..."
 
-SARAH
-(to camera)
-When I started Flawless by Beauty, I wasn't trying to create another beauty brand. I was trying to solve a problem I'd lived with my entire life.
+INT. ADUNNI'S BEDROOM - MORNING (TAKE TWO)
+Same morning routine, but this time she pauses at her reflection.
+ADUNNI (to herself):
+"This time will be different."
+After her prayer, she looks at her hair in the mirror.
+ADUNNI (touching her hair):
+"My crown needs attention."
+She picks up her phone.
+ADUNNI (into phone):
+"Hello, Flawless by Nature? I need you. Today."
 
-MONTAGE - SARAH'S BEAUTY JOURNEY:
-- Young Sarah struggling with skin issues
-- Trying countless products with no success
-- The moment of realization in her kitchen, mixing natural ingredients
+INT. ADUNNI'S BEDROOM - LATER
+Professional hands work on Adunni's hair. We see only the STYLIST's hands and tools, never her face.
+Close-ups: Hair being washed, conditioned, styled. The transformation is remarkable.
+Adunni watches in the mirror as her hair becomes a work of art.
+ADUNNI (amazed):
+"I... I look like myself. The best version."
 
-SARAH (V.O.)
-Every product in our line tells a story. Not just of ingredients and formulations, but of real people with real struggles finding real solutions.
+EXT. CORPORATE BUILDING - DAY (TAKE TWO)
+Same building, but now Adunni walks differently. Her hair catches the sunlight, her stride is confident.
 
-[Script continues with customer testimonials, behind-the-scenes product development, and the brand's mission to redefine beauty standards.]
+INT. CORPORATE BUILDING - HALLWAY (TAKE TWO)
+Same hallway, but now Adunni owns it.
 
-FADE OUT.
+EXT. CORPORATE BUILDING - LATER (TAKE TWO)
+Adunni checks her phone, this time with a smile spreading across her face.
+ADUNNI (reading):
+"Congratulations! We're pleased to offer you the position."
+She looks at her reflection in the building's glass.
+ADUNNI (touching her styled hair):
+"It was never about the checklist."
+She takes out her old checklist and adds a new item at the top.
+ADUNNI (writing):
+"Number one: Crown yourself first."
+She looks directly at the camera.
+ADUNNI (confident):
+"Sometimes the missing piece isn't what you do. It's how you see yourself."
+She walks away, her hair moving beautifully in the wind.
+FADE TO BLACK.
+WHITE TEXT APPEARS:
+"FLAWLESS BY NATURE"
+"The Confidence You've Been Missing"
+"Home Service Available"
+Contact Information
+FINAL FADE OUT.
 
-THE END
+PRODUCTION NOTES:
+DURATION: 90-120 seconds
+CAST REQUIREMENTS:
 
-[This documentary script captures the authentic brand story while showcasing products in context, building emotional connection with the audience.]`,
-    caseStudy: {
-      overview: 'Developed a documentary-style script series that positions Flawless by Beauty as an authentic, customer-centric brand in the competitive beauty market.',
-      problem: 'The beauty industry is saturated with brands making similar claims. Flawless by Beauty needed to differentiate through authentic storytelling rather than generic marketing.',
-      approach: 'Created intimate, documentary-style narratives focusing on real customer journeys and founder authenticity, avoiding typical beauty advertising clichés.',
-      output: 'A series of brand documentary scripts that humanize the brand, showcase genuine customer transformations, and establish emotional connections with the target audience.',
-      rationale: 'Authentic storytelling builds trust and loyalty in an industry where consumers are increasingly skeptical of traditional advertising approaches.',
-      role: 'Brand Storytelling Specialist - Conducted customer interviews, developed narrative structure, and ensured brand voice consistency across all scripts.'
-    }
+1 Main actress (Adunni)
+1 Stylist (hands/body only, no face)
+Background extras (optional, can be blurred)
+
+LOCATIONS:
+
+Bedroom
+Corporate building exterior
+Elevator
+Hallway
+Generic office space (for blurred background)
+
+VISUAL TECHNIQUES:
+
+Time reversal using reverse footage
+Close-ups on hands, hair, and expressions
+Blurred backgrounds for "crowd" scenes
+Mirror reflections throughout
+Split screen comparisons
+
+DIALOGUE:
+
+Minimal, mostly voice-over and self-talk
+No additional cast dialogue needed
+
+PROPS:
+
+Handwritten checklist
+Professional documents
+Phone
+Hair styling tools
+
+THEME: Your crown is your confidence
+`,
+    caseStudy: null
   },
   {
     id: 'gbenlandia-tech',
-    title: 'Startup Pitch Series',
+    title: 'The Cost of Standing Still',
     brand: 'Gbenlandia GrowthTech',
     thumbnail: '/src/assets/gbenlandia-tech.jpg',
     description: 'Dynamic pitch presentations and investor storytelling that secured funding for innovative growth solutions.',
-    script: `GBENLANDIA GROWTHTECH - INVESTOR PITCH
-"Scaling Success Through Smart Technology"
+    script: `Setting: Studio, black canvas background. White shirt.
+Tone: Thoughtful, honest, bold
 
-FADE IN:
+[INT. STUDIO – BLACK CANVAS BACKGROUND – DAY]
+Soft ambient hum plays, like the subtle ticking of time. A single spotlight on Mike, standing calmly in a white shirt. The frame is minimal, cinematic.
 
-INT. MODERN CONFERENCE ROOM - DAY
+MIKE (soft, thoughtful tone)
+(beat)
+You ever notice how life feels like it's moving faster these days?
 
-A sleek presentation setup. GBENGA (32), CEO and founder, stands confidently before a panel of investors.
+(beat)
+Opportunities... ideas... technology... growth.
 
-GBENGA
-(clicking remote)
-Every business owner faces the same critical question: How do we scale without losing what made us successful in the first place?
+Every day, something new is happening.
 
-SCREEN DISPLAYS: Statistics showing 70% of businesses fail when scaling.
+But here's the thing—
+Not making a move? That's a decision too.
 
-GBENGA (CONT'D)
-The answer isn't more capital, more people, or more time. The answer is smarter growth technology.
+(beat)
+And in this world, where businesses evolve overnight…
+standing still doesn't keep you in the same place.
+It puts you behind.
 
-He walks to the center of the room, making eye contact with each investor.
+[LIGHTS FLICKER SUBTLY – SYMBOLIZING TIME PASSING]
 
-GBENGA (CONT'D)
-GrowthTech doesn't just provide tools. We provide intelligence. Our AI-driven platform identifies growth bottlenecks before they become roadblocks.
+MIKE (continuing)
+While you're debating whether to adapt—
+Your competitors?
+They're automating workflows.
+They're integrating AI.
+They're scaling faster. Smarter. More efficiently.
 
-MONTAGE - PLATFORM DEMONSTRATION:
-- Real-time analytics dashboards
-- Predictive growth modeling
-- Automated scaling recommendations
+And every second you hesitate…
+That gap between where you are* and *where you could be?
 
-GBENGA (V.O.)
-We've already helped 150+ businesses increase their revenue by an average of 340% within 18 months.
+It's growing.
 
-[Script continues with market opportunity, competitive advantages, and financial projections, building toward a compelling call to action.]
+But it doesn't have to.
 
-FADE OUT.
+[MIKE STEPS SLIGHTLY FORWARD – BREAKING FRAME, BRINGING VIEWER CLOSER]
 
-THE END
+MIKE (firm, sincere tone)
+At Gbenlandia GrowthTech, we don't just talk about growth.
 
-[This pitch script balances technical innovation with emotional storytelling, creating investor confidence and excitement.]`,
-    caseStudy: {
-      overview: 'Crafted compelling investor pitch scripts that successfully communicated GrowthTech\'s value proposition and secured Series A funding.',
-      problem: 'Complex technical solutions are difficult to communicate clearly to non-technical investors, often resulting in missed funding opportunities.',
-      approach: 'Developed a narrative structure that leads with business pain points, demonstrates clear solutions, and provides concrete evidence of success.',
-      output: 'A series of pitch scripts optimized for different investor audiences, from angel investors to venture capital firms, each tailored to specific interests and concerns.',
-      rationale: 'Successful fundraising requires more than good technology - it requires compelling storytelling that helps investors visualize market opportunity and return potential.',
-      role: 'Pitch Development Consultant - Collaborated with founding team to refine messaging, structure presentations, and prepare for investor Q&A sessions.'
-    }
+We engineer it.
+
+AI automation. Streamlined systems. Smarter workflows.
+All designed to not just keep up—
+But to lead.
+
+(beat)
+Because when it's all said and done…
+
+Success? Failure?
+
+It's all black and white.
+
+You either moved forward…
+Or you didn't.
+
+[PAUSE – MIKE HOLDS GAZE ON CAMERA]
+
+MIKE (calm but powerful)
+The only question left is...
+
+(beat)
+Which side will you be on?
+
+[SCREEN FADES TO BLACK]
+ON SCREEN TEXT: "Accelerating Business Growth from AI to ROI"
+White text. No sound. Just silence.
+
+[OPTIONAL GLITCH TWIST:]
+A flicker on the black screen.
+Quick flash of text:
+"Loading Competitor Growth... 97%"
+Then hard cut to black.
+
+END
+`,
+    caseStudy: null
   },
   {
     id: 'apt-scholars',
@@ -235,14 +461,7 @@ FADE OUT.
 THE END
 
 [This institutional script balances academic prestige with accessibility, appealing to prospective students and their families.]`,
-    caseStudy: {
-      overview: 'Created institutional storytelling scripts that elevated Apt Scholars Universal College\'s brand positioning and increased enrollment by 45%.',
-      problem: 'The institution struggled to differentiate itself in a competitive higher education market, with declining enrollment and limited brand recognition.',
-      approach: 'Developed narratives focusing on student success stories, innovative teaching methods, and real-world impact rather than traditional academic metrics.',
-      output: 'A comprehensive script library for recruitment videos, campus tours, and promotional materials that consistently communicate the institution\'s unique value proposition.',
-      rationale: 'Modern students and families seek educational experiences that combine academic excellence with personal growth and practical application.',
-      role: 'Educational Brand Strategist - Conducted stakeholder interviews, developed messaging hierarchy, and ensured alignment with institutional goals and values.'
-    }
+    caseStudy: null
   }
 ];
 
@@ -251,7 +470,7 @@ export const copyProjects: CopyProject[] = [
     id: 'karisma-nutrition',
     title: 'Wellness Brand Positioning',
     brand: 'Karisma Nutrition',
-    thumbnail: '/src/assets/karisma-nutrition.jpg',
+    thumbnail: '/src/assets/karisma-nutrition.jpeg',
     description: 'Compelling health and wellness copy that drives conversions while building trust and authority.',
     caseStudy: {
       overview: 'Developed comprehensive website copy and marketing materials that positioned Karisma Nutrition as a trusted authority in personalized wellness solutions.',
@@ -266,7 +485,7 @@ export const copyProjects: CopyProject[] = [
     id: 'gbenlandia-tech-copy',
     title: 'SaaS Platform Messaging',
     brand: 'Gbenlandia GrowthTech',
-    thumbnail: '/src/assets/gbenlandia-tech.jpg',
+    thumbnail: '/src/assets/gbenlandia-tech.jpeg',
     description: 'Technical copy that makes complex growth solutions accessible to business owners and decision-makers.',
     caseStudy: {
       overview: 'Created clear, compelling copy for a complex B2B SaaS platform that simplified technical concepts for non-technical business owners.',
@@ -281,7 +500,7 @@ export const copyProjects: CopyProject[] = [
     id: 'crowded',
     title: 'EdTech Platform Copy',
     brand: 'CrowdED',
-    thumbnail: '/src/assets/crowded.jpg',
+    thumbnail: '/src/assets/crowded.jpeg',
     description: 'Educational platform copy that connects with both educators and students, driving engagement and retention.',
     caseStudy: {
       overview: 'Developed user-focused copy for an innovative EdTech platform that serves both educators and students with collaborative learning tools.',
